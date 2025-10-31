@@ -3,6 +3,11 @@ date = '2025-10-31T16:29:20+01:00'
 draft = false
 title = 'My website'
 tags = ['About the website']
+
+[menu]
+    [menu.main]
+        name = "Home"
+        weight = 10
 +++
 <!--this is a link to access the about.md-->
 [Read more about me →](/about/)

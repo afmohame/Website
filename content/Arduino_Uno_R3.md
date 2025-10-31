@@ -14,4 +14,5 @@ title = 'Arduino_Uno_R3'
     This is <strong>raw HTML</strong>, inside Markdown.
   </p>
   <img src="/arduino_pins.png">
+  <!-- when in hugo, do not write the path as /static/image.png it does not work. Do it like above--->
 {{< /rawhtml >}}

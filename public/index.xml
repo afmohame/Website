@@ -13,7 +13,7 @@
       <link>http://localhost:1313/arduino_uno_r3/</link>
       <pubDate>Fri, 31 Oct 2025 17:43:45 +0100</pubDate>
       <guid>http://localhost:1313/arduino_uno_r3/</guid>
-      <description>&lt;p class=&#34;speshal-fancy-custom&#34;&gt;&#xA;    This is &lt;strong&gt;raw HTML&lt;/strong&gt;, inside Markdown.&#xA;  &lt;/p&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/arduino_pins.png&#34;&gt;</description>
+      <description>&lt;p class=&#34;speshal-fancy-custom&#34;&gt;&#xA;    This is &lt;strong&gt;raw HTML&lt;/strong&gt;, inside Markdown.&#xA;  &lt;/p&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/arduino_pins.png&#34;&gt;&#xA;  &lt;!-- when in hugo, do not write the path as /static/image.png it does not work. Do it like above---&gt;</description>
     </item>
     <item>
       <title>About my website</title>

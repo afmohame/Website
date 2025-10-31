@@ -5,7 +5,7 @@ title = 'About my website'
 
 [menu]
   [menu.main]
-    name = "About from about.md"
+    name = "About"
     weight = 20
 +++
 
