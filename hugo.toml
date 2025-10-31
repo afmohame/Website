@@ -1,0 +1,6 @@
+baseURL = 'https://afmohame.org/'
+languageCode = 'en-us'
+title = 'My projects website'
+theme = 'gokarna'
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About the Website on My projects website</title>
+    <link>http://localhost:1313/tags/about-the-website/</link>
+    <description>Recent content in About the Website on My projects website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Oct 2025 16:29:20 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/about-the-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My website</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Fri, 31 Oct 2025 16:29:20 +0100</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/about/&#34;&gt;Read more about me →&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is the index file in content folder it let me write on the&#xA;home page of my website.&lt;/p&gt;&#xA;&lt;h1 id=&#34;this-is-a-markdown-biggest-title&#34;&gt;This is a markdown biggest title&lt;/h1&gt;&#xA;&lt;h2 id=&#34;this-is-a-markdown-table&#34;&gt;This is a markdown table&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;Name maker of the site&lt;/th&gt;&#xA;          &lt;th&gt;Name of website&lt;/th&gt;&#xA;          &lt;th&gt;Used for the site&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Afakkir Mohamed&lt;/td&gt;&#xA;          &lt;td&gt;Probably: My bazar&lt;/td&gt;&#xA;          &lt;td&gt;Hugo&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;this-is-a-list&#34;&gt;This is a list&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. Berserk&#xA;2. Zetman &#xA;3. Dragon ball&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;this-is-a-dictionary&#34;&gt;This is a dictionary&lt;/h2&gt;&#xA;&lt;dl&gt;&#xA;&lt;dt&gt;Dictionary&lt;/dt&gt;&#xA;&lt;dd&gt;&#xA;&lt;p&gt;I tried this&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
