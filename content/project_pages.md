@@ -6,7 +6,14 @@ title = 'Projecten'
 [menu]
     [menu.main]
         name = "Mijn projecten"
-        weigth = 5
+        weigth = 20
 +++
 
+This is where every project will be posted with its link and a short resume.
+
+# [Arduino Uno R3 →](/content/Arduino_Uno_R3.md)
+This is a report about the Arduino Uno R3. I explain how it works, the features, limitations and more.
+
+# The MPU6050
+ThE MPU6050 is a 6-axis gyroscope and a accelerometer. In this report I used it to measure gravity
 

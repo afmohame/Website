@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/project_pages/</loc>
+    <lastmod>2025-11-02T12:54:44+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/arduino_uno_r3/</loc>
     <lastmod>2025-10-31T17:43:45+01:00</lastmod>
   </url><url>

@@ -7,7 +7,7 @@ tags = ['About the website']
 [menu]
     [menu.main]
         name = "Home"
-        weight = 10
+        weight = 20
 +++
 <!--this is a link to access the about.md-->
 [Read more about me →](/about/)

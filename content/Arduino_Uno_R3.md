@@ -2,11 +2,6 @@
 date = '2025-10-31T17:43:45+01:00'
 draft = false
 title = 'Arduino Uno R3'
-
-[menu]
-    [menu.main]
-        name = "Arduino Uno R3"
-        weight = 20
 +++
 
 {{< rawhtml >}}
