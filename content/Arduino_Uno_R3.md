@@ -1,7 +1,7 @@
 +++
 date = '2025-10-31T17:43:45+01:00'
 draft = false
-title = 'Arduino_Uno_R3'
+title = 'Arduino Uno R3'
 
 [menu]
     [menu.main]
