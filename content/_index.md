@@ -4,17 +4,13 @@ draft = false
 title = 'My website'
 tags = ['About the website']
 
-[menu]
-    [menu.main]
-        name = "Home"
-        weight = 20
 +++
 <!--this is a link to access the about.md-->
 [Read more about me →](/about/)
 
 
-this is the index file in content folder it let me write on the 
-home page of my website.
+this is the index file in content folder it let me write on the <br>
+home page of my website. 
 
 # This is a markdown biggest title
 

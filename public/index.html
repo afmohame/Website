@@ -6,7 +6,7 @@
 
     <style>
         :root {
-            --accent-color: #FF4D4D;
+            --accent-color: #967bb6 ;
             --font-size: 1.1rem;
         }
     </style>
@@ -31,8 +31,8 @@ This is a markdown biggest title This is a …">
     <meta property="og:description" content="Read more about me →
 this is the index file in content folder it let me write on the home page of my website.
 This is a markdown biggest title This is a …">
-    <meta property="og:image" content="http://localhost:1313/">
-    <meta property="og:image:secure_url" content="http://localhost:1313/">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+    <meta property="og:image:secure_url" content="http://localhost:1313/logo.png">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="My website">
@@ -41,7 +41,7 @@ this is the index file in content folder it let me write on the home page of my 
 This is a markdown biggest title This is a …">
     <meta property="twitter:domain" content="http://localhost:1313/">
     <meta property="twitter:url" content="http://localhost:1313/">
-    <meta name="twitter:image" content="http://localhost:1313/">
+    <meta name="twitter:image" content="http://localhost:1313/logo.png">
 
     
     <link rel="canonical" href="http://localhost:1313/">
@@ -69,23 +69,33 @@ This is a markdown biggest title This is a …">
     <nav class="header-nav">
 
         
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/logo.png' alt="site logo">
+            </a>
+        </div>
+        
 
         <div class="nav-title">
-            <a class="nav-brand" href="http://localhost:1313/">My projects website</a>
+            <a class="nav-brand" href="http://localhost:1313/">Mon savoir</a>
         </div>
 
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="http://localhost:1313/about/" aria-label="" > About </a>
+                <a href="http://localhost:1313/about" aria-label="" > About </a>
             </div>
             
             <div class="nav-link">
-                <a href="http://localhost:1313/" aria-label="" > Home </a>
+                <a href="http://localhost:1313/arduino_uno_r3/" aria-label="" > Arduino </a>
             </div>
             
             <div class="nav-link">
                 <a href="http://localhost:1313/project_pages/" aria-label="" > Mijn projecten </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/test/" aria-label="" > TESTING </a>
             </div>
             
 
@@ -108,15 +118,19 @@ This is a markdown biggest title This is a …">
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/about/" > About </a>
+                    <a href="http://localhost:1313/about" > About </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/" > Home </a>
+                    <a href="http://localhost:1313/arduino_uno_r3/" > Arduino </a>
                 </li>
                 
                 <li class="nav-item">
                     <a href="http://localhost:1313/project_pages/" > Mijn projecten </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/test/" > TESTING </a>
                 </li>
                 
                 <li class="nav-item dark-theme-toggle">
@@ -134,9 +148,11 @@ This is a markdown biggest title This is a …">
 <section class="home-about">
 	<div class="avatar">
         
+        <img class=size-xs src='/logo.png' alt="site logo">
+        
 	</div>
 
-    <h1>My projects website</h1>
+    <h1>Mon savoir</h1>
     
 
 </section>
@@ -148,7 +164,7 @@ This is a markdown biggest title This is a …">
 
         <section class="home-content">
             <p><a href="/about/">Read more about me →</a></p>
-<p>this is the index file in content folder it let me write on the
+<p>this is the index file in content folder it let me write on the <!-- raw HTML omitted -->
 home page of my website.</p>
 <h1 id="this-is-a-markdown-biggest-title">This is a markdown biggest title</h1>
 <h2 id="this-is-a-markdown-table">This is a markdown table</h2>

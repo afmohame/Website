@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My website on My projects website</title>
+    <title>My website on Mon savoir</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in My website on My projects website</description>
+    <description>Recent content in My website on Mon savoir</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Nov 2025 12:54:44 +0100</lastBuildDate>
@@ -13,14 +13,21 @@
       <link>http://localhost:1313/project_pages/</link>
       <pubDate>Sun, 02 Nov 2025 12:54:44 +0100</pubDate>
       <guid>http://localhost:1313/project_pages/</guid>
-      <description>&lt;p&gt;This is where every project will be posted with its link and a short resume.&lt;/p&gt;&#xA;&lt;h1 id=&#34;arduino-uno-r3-contentarduino_uno_r3md&#34;&gt;&lt;a href=&#34;http://localhost:1313/content/Arduino_Uno_R3.md&#34;&gt;Arduino Uno R3 →&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This is a report about the Arduino Uno R3. I explain how it works, the features, limitations and more.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-mpu6050&#34;&gt;The MPU6050&lt;/h1&gt;&#xA;&lt;p&gt;ThE MPU6050 is a 6-axis gyroscope and a accelerometer. In this report I used it to measure gravity&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is where every project will be posted with its link and a short resume.&lt;/p&gt;&#xA;&lt;h1 id=&#34;arduino-uno-r3-arduino_uno_r3&#34;&gt;&lt;a href=&#34;http://localhost:1313/arduino_uno_r3/&#34;&gt;Arduino Uno R3 →&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This is a report about the Arduino Uno R3. I explain how it works, the features and more.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-mpu6050&#34;&gt;The MPU6050&lt;/h1&gt;&#xA;&lt;p&gt;The MPU6050 is a 6-axis gyroscope and a accelerometer. In this report I used it to measure gravity&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Sun, 02 Nov 2025 12:54:44 +0100</pubDate>
+      <guid>http://localhost:1313/test/</guid>
+      <description>&lt;h2 id=&#34;this-is-a-test-page-for-new-things&#34;&gt;This is a test page for new things&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&lt;head&gt;&#xA;    &lt;style&gt;&#xA;        .image{&#xA;            display: inline-block;&#xA;            margin-right: auto;&#xA;            margin-left: 100;&#xA;        }&#xA;    &lt;/style&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&lt;img&#xA;class=&#34;image&#34;&#xA;src=&#34;http://localhost:1313/logo.jpg&#34;&#xA;width=&#34;300&#34;&#xA;style=&#34;float: right;&#34;&#xA;&gt;</description>
     </item>
     <item>
       <title>Arduino Uno R3</title>
       <link>http://localhost:1313/arduino_uno_r3/</link>
       <pubDate>Fri, 31 Oct 2025 17:43:45 +0100</pubDate>
       <guid>http://localhost:1313/arduino_uno_r3/</guid>
-      <description>&lt;p class=&#34;speshal-fancy-custom&#34;&gt;&#xA;    This is &lt;strong&gt;raw HTML&lt;/strong&gt;, inside Markdown.&#xA;  &lt;/p&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/arduino_pins.png&#34;&gt;&#xA;  &lt;!-- when in hugo, do not write the path as /static/image.png it does not work. Do it like above---&gt;</description>
+      <description>&lt;!--&lt;div&gt; Whole page div--&gt;&#xA;  &lt;!--&lt;div&gt; table of contents div--&gt;&#xA;&lt;body&gt;&#xA;    &lt;h2&gt;Table of contents&lt;/h2&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#intro_to_arduino_uno_r3&#34;&gt;Introduction to the Arduino Uno R3&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#technical_specifications&#34;&gt;Technical specifications&lt;/a&gt;&lt;/li&gt;&#xA;          &lt;ul type=&#34;none&#34;&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#memory&#34;&gt;2.1. Memory&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;ul type=&#34;none&#34;&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#flash&#34;&gt;2.1. Flash memory&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#sram&#34;&gt;2.2. SRAM&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#eeprom&#34;&gt;2.3. EEPROM&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#difference_eeprom_flash&#34;&gt;2.4. Difference between EEPROM and Flash memory&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ul type=&#34;none&#34;&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#peripherals&#34;&gt;2.2. Peripherals&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;ul type=&#34;none&#34;&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;#digital_pins&#34;&gt;2.2.1. Digital I/O pins&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;ul type=&#34;circle&#34;&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#pwm_pins&#34;&gt;PWM pins&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;/ul&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;#comm_protocols&#34;&gt;2.2.2. Communication protocols&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;ul type=&#34;circle&#34;&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#i2c&#34;&gt;I2C&lt;/a&gt;&lt;/li&gt;&#xA;                        &lt;ul&gt;&#xA;                          &lt;li&gt;&lt;a href=&#34;#i2c_workings&#34;&gt;I2C the workings&lt;/a&gt;&lt;/li&gt;&#xA;                        &lt;/ul&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#spi&#34;&gt;SPI&lt;/a&gt;&lt;/li&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#uart_usart&#34;&gt;UART/USART&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;/ul&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;#analog_comparator&#34;&gt;2.2.3. Analog comparator&lt;/a&gt;&lt;/li&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;adc&#34;&gt;2.2.4. Analog to Digital Converter (ADC)&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;/ul&gt;&#xA;          &lt;/ul&gt;&#xA;          &lt;li&gt;&lt;a href=&#34;#arduino_ide&#34;&gt;Arduino IDE&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;&lt;!--&lt;/div&gt;--&gt;&#xA;&lt;/body&gt;&#xA;&#xA;&#xA;&lt;h2 id=&#34;intro_to_arduino_uno_r3&#34;&gt;1. Introduction to the Arduino Uno R3&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;The Arduino Uno R3 is a microcontroller development board designed by Arduino with which we can control various components. It is a small and compact microcontroller board that has 6 analog &lt;b&gt;input&lt;/b&gt; pins, 14 digital &lt;b&gt;I/O&lt;/b&gt; pins, 5V and 3.3V output pins, reset button and reset pin and more. In this article I will be discussing the ins and outs of the Arduino Uno R3 and its capabilities to document the features and serve as a reference for future projects. It is one of the most popular and widely used microcontroller boards for various reasons. It is beginner friendly, easy to use, has a big following and community support and lots of libraries. For these reasons, the Arduino Uno R3 is a must-have for beginners.&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About my website</title>
