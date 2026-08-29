@@ -8,9 +8,10 @@ tags = ['About the website']
 <!--this is a link to access the about.md-->
 [Read more about me →](/about/)
 
-
+{{< rawhtml >}}
 this is the index file in content folder it let me write on the <br>
-home page of my website. 
+home page of my <b>website</b>. greggreg
+{{< /rawhtml >}}
 
 # This is a markdown biggest title
 
@@ -18,7 +19,7 @@ home page of my website.
 
 | | Name maker of the site | Name of website | Used for the site |
 |-|------------------------|-----------------|-------------------|
-| | Afakkir Mohamed        | Probably: My bazar| Hugo        |
+| | Afakkir f sad       | Probably: My bazar| Hugo        |
 
 
 ## This is a list

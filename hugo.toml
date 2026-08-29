@@ -1,34 +1,88 @@
 baseURL = 'https://afmohame.com/'
 languageCode = 'en-us'
-title = 'Mon savoir'
+title = '' 
 theme = 'gokarna'
 [params]
-    customcss = ["css/custom.css"]
-    accentColor = "#967bb6 "
-    avatarURL = "/logo.png"
-    avatarSize = "size-xs"
+    customHeadHTML = '<link rel="stylesheet" href="/css/custom.css">'
+    customCSS = ["css/custom.css"]
+    accentColor = "#967bb6"
+    avatarURL = "/LOGO.png"
+    avatarSize = "size-s"
     avatarAltText = "site logo"
+    socialIcons = [
+        {name = "GitHub", url = "https://github.com/afmohame/"}
+    ]
 
 
-
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
 
 [menu]
     [[menu.main]]
+    identifier = "GitHub"
+    url = "https://github.com/afmohame/"
+    weight = 100
+    pre = "<span data-feather='github'></span>"
+    [menu.main.params]
+        newPage = true
+
+    [[menu.main]]
+    name = "Home"
+    url = "#"
+    weight = 1
+
+    [[menu.main]]
     name = "About"
     url = "about"
-    weigth = 1
+    weight = 98
+
 
     [[menu.main]]
-    name = "Arduino"
+    name = "Reports"
+    url = "/"
+    identifier = "reports"
+    weight = 2
+    
+    [[menu.main]]
+    name = "Arduino Uno R3"
     url = "/arduino_uno_r3/"
-    weigth = 1
+    parent = "reports"
+    weight = 2
 
     [[menu.main]]
-    name = "Mijn projecten"
+    name = "More "
+    url = "/report_page/"
+    parent = "reports"
+    weight = 3
+
+
+
+
+    [[menu.main]]
+    name = "Projects"
     url = "/project_pages/"
-    weigth = 1
+    identifier = "projects"
+    weight = 3
 
     [[menu.main]]
-    name = "TESTING"
+    name = "MPU-6050 Accelerometer"
+    url = "/MPU6050_accel/"
+    parent = "projects"
+    weight = 2
+
+    [[menu.main]]
+    name = "More"
+    url = "/project_pages/"
+    parent = "projects"
+    weight = 3
+
+
+    [[menu.main]]
+    name = "TESTIdNG"
     url = "/test/"
-    weigth = 1
+    weight = 99
+    
+    

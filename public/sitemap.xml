@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/report_page/</loc>
+    <lastmod>2026-08-29T12:54:44+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mpu6050_accel/</loc>
+    <lastmod>2026-08-29T12:54:44+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/project_pages/</loc>
     <lastmod>2025-11-02T12:54:44+01:00</lastmod>
   </url><url>
@@ -21,7 +27,6 @@
     <lastmod>2025-10-31T16:29:20+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-10-31T15:50:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

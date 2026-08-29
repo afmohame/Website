@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My website on Mon savoir</title>
+    <title>My website on </title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in My website on Mon savoir</description>
+    <description>Recent content in My website on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Nov 2025 12:54:44 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 12:54:44 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All reports</title>
+      <link>http://localhost:1313/report_page/</link>
+      <pubDate>Sat, 29 Aug 2026 12:54:44 +0100</pubDate>
+      <guid>http://localhost:1313/report_page/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This is the report page&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MPU-6050 Accelerometer met Arduino Uno R3 of ESP32</title>
+      <link>http://localhost:1313/mpu6050_accel/</link>
+      <pubDate>Sat, 29 Aug 2026 12:54:44 +0100</pubDate>
+      <guid>http://localhost:1313/mpu6050_accel/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;hello MPU6050&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Projecten</title>
       <link>http://localhost:1313/project_pages/</link>
       <pubDate>Sun, 02 Nov 2025 12:54:44 +0100</pubDate>
       <guid>http://localhost:1313/project_pages/</guid>
-      <description>&lt;p&gt;This is where every project will be posted with its link and a short resume.&lt;/p&gt;&#xA;&lt;h1 id=&#34;arduino-uno-r3-arduino_uno_r3&#34;&gt;&lt;a href=&#34;http://localhost:1313/arduino_uno_r3/&#34;&gt;Arduino Uno R3 →&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This is a report about the Arduino Uno R3. I explain how it works, the features and more.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-mpu6050&#34;&gt;The MPU6050&lt;/h1&gt;&#xA;&lt;p&gt;The MPU6050 is a 6-axis gyroscope and a accelerometer. In this report I used it to measure gravity&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is where every project will be posted with its link and a short resume.&lt;/p&gt;&#xA;&lt;h1 id=&#34;arduino-uno-r3-&#34;&gt;&lt;a href=&#34;http://localhost:1313/arduino_uno_r3/&#34;&gt;Arduino Uno R3 →&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This is a report about the Arduino Uno R3. I explain how it works, the features and more.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-mpu6050-&#34;&gt;&lt;a href=&#34;http://localhost:1313/mpu6050_accel/&#34;&gt;The MPU6050 →&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The MPU6050 is a 6-axis gyroscope and a accelerometer. In this project I used it to measure gravity&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
@@ -30,11 +44,11 @@
       <description>&lt;!--&lt;div&gt; Whole page div--&gt;&#xA;  &lt;!--&lt;div&gt; table of contents div--&gt;&#xA;&lt;body&gt;&#xA;    &lt;h2&gt;Table of contents&lt;/h2&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#intro_to_arduino_uno_r3&#34;&gt;Introduction to the Arduino Uno R3&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#technical_specifications&#34;&gt;Technical specifications&lt;/a&gt;&lt;/li&gt;&#xA;          &lt;ul type=&#34;none&#34;&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#memory&#34;&gt;2.1. Memory&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;ul type=&#34;none&#34;&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#flash&#34;&gt;2.1. Flash memory&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#sram&#34;&gt;2.2. SRAM&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#eeprom&#34;&gt;2.3. EEPROM&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#difference_eeprom_flash&#34;&gt;2.4. Difference between EEPROM and Flash memory&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ul type=&#34;none&#34;&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#peripherals&#34;&gt;2.2. Peripherals&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;ul type=&#34;none&#34;&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;#digital_pins&#34;&gt;2.2.1. Digital I/O pins&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;ul type=&#34;circle&#34;&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#pwm_pins&#34;&gt;PWM pins&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;/ul&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;#comm_protocols&#34;&gt;2.2.2. Communication protocols&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;ul type=&#34;circle&#34;&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#i2c&#34;&gt;I2C&lt;/a&gt;&lt;/li&gt;&#xA;                        &lt;ul&gt;&#xA;                          &lt;li&gt;&lt;a href=&#34;#i2c_workings&#34;&gt;I2C the workings&lt;/a&gt;&lt;/li&gt;&#xA;                        &lt;/ul&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#spi&#34;&gt;SPI&lt;/a&gt;&lt;/li&gt;&#xA;                      &lt;li&gt;&lt;a href=&#34;#uart_usart&#34;&gt;UART/USART&lt;/a&gt;&lt;/li&gt;&#xA;                    &lt;/ul&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;#analog_comparator&#34;&gt;2.2.3. Analog comparator&lt;/a&gt;&lt;/li&gt;&#xA;                  &lt;li&gt;&lt;a href=&#34;adc&#34;&gt;2.2.4. Analog to Digital Converter (ADC)&lt;/a&gt;&lt;/li&gt;&#xA;                &lt;/ul&gt;&#xA;          &lt;/ul&gt;&#xA;          &lt;li&gt;&lt;a href=&#34;#arduino_ide&#34;&gt;Arduino IDE&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;&lt;!--&lt;/div&gt;--&gt;&#xA;&lt;/body&gt;&#xA;&#xA;&#xA;&lt;h2 id=&#34;intro_to_arduino_uno_r3&#34;&gt;1. Introduction to the Arduino Uno R3&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;The Arduino Uno R3 is a microcontroller development board designed by Arduino with which we can control various components. It is a small and compact microcontroller board that has 6 analog &lt;b&gt;input&lt;/b&gt; pins, 14 digital &lt;b&gt;I/O&lt;/b&gt; pins, 5V and 3.3V output pins, reset button and reset pin and more. In this article I will be discussing the ins and outs of the Arduino Uno R3 and its capabilities to document the features and serve as a reference for future projects. It is one of the most popular and widely used microcontroller boards for various reasons. It is beginner friendly, easy to use, has a big following and community support and lots of libraries. For these reasons, the Arduino Uno R3 is a must-have for beginners.&#xA;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About my website</title>
+      <title></title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 31 Oct 2025 15:50:39 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;This is about.md from the content folder.&lt;/p&gt;&#xA;&lt;h1 id=&#34;this-is-the-biggest-markdown-title-there-is&#34;&gt;This is the biggest markdown title there is&lt;/h1&gt;&#xA;&lt;p&gt;this is a markdown table&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;hey&lt;/th&gt;&#xA;          &lt;th&gt;yo&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;one&lt;/td&gt;&#xA;          &lt;td&gt;two&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;why-create-a-website&#34;&gt;Why create a website?&lt;/h1&gt;&#xA;&lt;p&gt;I made this website because I wanted to have a nice platform where I could showcase everything I did and how I did it.&lt;/p&gt;&#xA;&lt;h1 id=&#34;why-do-it&#34;&gt;Why do it&lt;/h1&gt;&#xA;&lt;p&gt;I made a &lt;strong&gt;GitHub&lt;/strong&gt; account to share and document my progress. I then realised that GitHub repos might not be best and sleekest ways to do this. Therefore I searched an alternative and then I remembered &lt;a href=&#34;https://sysidguy.eu/index.php?page=about&amp;amp;l=5&#34;&gt;Mr Péter Zoltán Csurcsia&amp;rsquo;s&lt;/a&gt; website. I then searched how to make website and stumbled upon hugo.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;-head&#34;&gt;&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD&lt;/h2&gt;&#xA;&lt;h2 id=&#34;title-about&#34;&gt;title: About&lt;/h2&gt;&#xA;&lt;h1 id=&#34;im-learning-hugo-bit-by-bit-lol&#34;&gt;I&amp;rsquo;m learning Hugo bit by bit LOL.&lt;/h1&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-10-31T15:50:39+01:00&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;About my website&amp;rsquo;&lt;/p&gt;&#xA;&lt;p&gt;[menu]&#xA;[menu.main]&#xA;name = &amp;ldquo;About&amp;rdquo;&#xA;weight = 20&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;This is about.md from the content folder.&lt;/p&gt;&#xA;&lt;h1 id=&#34;this-is-the-biggest-markdown-title-there-is&#34;&gt;This is the biggest markdown title there is&lt;/h1&gt;&#xA;&lt;p&gt;this is a markdown table&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;hey&lt;/th&gt;&#xA;          &lt;th&gt;yo&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;one&lt;/td&gt;&#xA;          &lt;td&gt;two&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;why-create-a-website&#34;&gt;Why create a website?&lt;/h1&gt;&#xA;&lt;p&gt;I made this website because I wanted to have a nice platform where I could showcase everything I did and how I did it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

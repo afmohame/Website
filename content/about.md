@@ -1,8 +1,19 @@
+<<<<<<< HEAD
+---
+title: About
+---
+
+I'm learning Hugo bit by bit LOL.
+=======
 +++
 date = '2025-10-31T15:50:39+01:00'
 draft = false
 title = 'About my website'
 
+[menu]
+  [menu.main]
+    name = "About"
+    weight = 20
 +++
 
 This is about.md from the content folder.

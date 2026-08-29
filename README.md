@@ -21,3 +21,6 @@ This is where I will begin my website
     - Created 2 menu items that direct them to another page. These two pages are Arduino Uno R3 and About.
 
     - Partially filled section "Why create a website" in the About page.
+
+  -  August 29
+    made a dropdown menu and added some other pages

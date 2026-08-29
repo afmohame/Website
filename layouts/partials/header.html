@@ -1,0 +1,50 @@
+<header class="header">
+    <nav class="header-nav">
+        {{ if isset .Site.Params "avatarurl" }}
+        <div class="avatar"> 
+            <!-- Avatar image -->
+             <a href="{{ .Site.BaseURL }}"> <!-- Link to homepage-->
+                <img src='{{ .Scratch.Get "avatarImgSrc" }}' alt='{{ .Site.Params.AvatarAltText|default "avatar" }}'>
+             </a>
+        </div>
+        {{ end }}
+
+        <div class="nav-title">
+            <a class="nav-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        </div>
+        
+        <div class="nav-links">
+            {{ range .Site.Menus.main }} <!-- Looping around [[ menu.main ]] -->
+            <div class="nav-link {{ if .HasChildren }}dropdown{{ end }}">
+                <a href="{{ .URL | absURL }}" aria-label="{{ .Identifier }}">
+                    {{ .Pre | safeHTML }}
+                    {{ .Name }}
+                    {{ if .HasChildren }}⌄{{ end }}
+                    {{ .Post | safeHTML}}
+                </a>
+
+                {{ if .HasChildren }}
+                <div class="dropdown-content">
+                    {{ range .Children }}
+                    <a href="{{ .URL | absURL}}">
+                        {{ .Name }}
+                    </a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">
+                    theme
+                </span>
+
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+            
+        </div>
+
+    </nav>
+</header>

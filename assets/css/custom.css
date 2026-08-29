@@ -1,0 +1,14 @@
+.avatar {
+    border-radius: 0 !important;   /* remove circle */
+    overflow: visible;             /* just in case */
+}
+
+.header-nav .avatar img {
+    width: 300px !important;
+    height: auto;    
+}
+
+.nav-links {
+    background-color: aqua !important;
+    text-align: center !important;
+}

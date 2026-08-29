@@ -1,0 +1,44 @@
+.avatar {
+    border-radius: 0 !important;   /* remove circle */
+    overflow: visible;             /* just in case */
+}
+
+.header-nav .avatar img {
+    width: auto;
+    height: 40px;    
+}
+
+.nav-links {
+    display: flex;
+    text-align: left;
+    padding-left: 50px;
+}
+.nav-link:hover{
+    background-color: orange;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: None;
+    position: absolute;
+    left: 0;
+    text-align: left;
+
+}
+.dropdown-content a {
+    white-space: nowrap;
+}
+.dropdown:hover{
+    background-color: orange;
+    border-radius: 15px 15px 0% 0%;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: orange;
+    border-radius: 0 15px 15px 15px;
+}
